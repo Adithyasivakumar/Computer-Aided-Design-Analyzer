@@ -93,6 +93,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "CADiff — AI CAD Drawing Difference Detection" },
+      { name: "description", content: "Compose and manipulate Computer-Aided Design (CAD) images." },
+      { property: "og:description", content: "Compose and manipulate Computer-Aided Design (CAD) images." },
+      { name: "twitter:description", content: "Compose and manipulate Computer-Aided Design (CAD) images." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a5c16410-6ccb-4faf-b5da-68070bc3c026/id-preview-cecb4b1e--73bd1014-6302-4f84-b7ec-c82f44b0379d.lovable.app-1782901013241.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a5c16410-6ccb-4faf-b5da-68070bc3c026/id-preview-cecb4b1e--73bd1014-6302-4f84-b7ec-c82f44b0379d.lovable.app-1782901013241.png" },
     ],
     links: [
       {
