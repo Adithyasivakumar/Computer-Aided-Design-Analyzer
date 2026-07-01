@@ -135,7 +135,7 @@ function Index() {
               <Ruler className="h-5 w-5" />
             </div>
             <div>
-              <h1 className="font-mono text-lg font-semibold tracking-tight">CAD IMAGE ANALYZER</h1>
+              <h1 className="font-mono text-lg font-semibold tracking-tight">CADiff</h1>
               <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
                 AI CAD Drawing Diff Engine
               </p>
@@ -145,7 +145,7 @@ function Index() {
             href="https://ai.gateway.lovable.dev"
             className="hidden font-mono text-xs text-muted-foreground hover:text-primary sm:inline"
           >
-            OWNER : ADITHYA S
+            powered by Lovable AI
           </a>
         </div>
       </header>
