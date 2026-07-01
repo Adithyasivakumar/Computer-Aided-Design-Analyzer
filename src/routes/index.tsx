@@ -135,17 +135,17 @@ function Index() {
               <Ruler className="h-5 w-5" />
             </div>
             <div>
-              <h1 className="font-mono text-lg font-semibold tracking-tight">CADiff</h1>
+              <h1 className="font-mono text-lg font-semibold tracking-tight text-primary">CAD IMAGE ANALYZER</h1>
               <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
                 AI CAD Drawing Diff Engine
               </p>
             </div>
           </div>
           <a
-            href="https://ai.gateway.lovable.dev"
+            href="#"
             className="hidden font-mono text-xs text-muted-foreground hover:text-primary sm:inline"
           >
-            powered by Lovable AI
+            OWNER : ADITHYA S
           </a>
         </div>
       </header>
@@ -156,7 +156,7 @@ function Index() {
             Detect revisions between two CAD drawings
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm text-muted-foreground sm:text-base">
-            Upload a reference drawing and its revised version. CADiff aligns them, highlights
+            Upload a reference drawing and its revised version. The analyzer aligns them, highlights
             every changed region, and generates an engineering revision summary.
           </p>
         </section>
@@ -350,7 +350,7 @@ function Index() {
       </main>
 
       <footer className="border-t border-border py-6 text-center font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-        CADiff · AI-assisted engineering drawing comparison
+        CAD IMAGE ANALYZER · AI-assisted engineering drawing comparison
       </footer>
     </div>
   );

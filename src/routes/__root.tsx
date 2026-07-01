@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CADiff — AI CAD Drawing Difference Detection" },
+      { title: "CAD IMAGE ANALYZER — AI CAD Drawing Difference Detection" },
       {
         name: "description",
         content:
           "Upload two CAD drawings and get an annotated diff, change statistics, and an AI-generated engineering revision summary.",
       },
-      { name: "author", content: "CADiff" },
-      { property: "og:title", content: "CADiff — AI CAD Drawing Difference Detection" },
+      { name: "author", content: "ADITHYA S" },
+      { property: "og:title", content: "CAD IMAGE ANALYZER — AI CAD Drawing Difference Detection" },
       {
         property: "og:description",
         content:
@@ -93,7 +93,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "CADiff — AI CAD Drawing Difference Detection" },
+      { name: "twitter:title", content: "CAD IMAGE ANALYZER — AI CAD Drawing Difference Detection" },
       { name: "description", content: "Compose and manipulate Computer-Aided Design (CAD) images." },
       { property: "og:description", content: "Compose and manipulate Computer-Aided Design (CAD) images." },
       { name: "twitter:description", content: "Compose and manipulate Computer-Aided Design (CAD) images." },
